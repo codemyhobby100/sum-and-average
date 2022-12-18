@@ -7,14 +7,14 @@ int main() {
   int input;
   const int constant = 5;
 
-  // Prompt the user 10 times for input and sum the input
+  // Prompt the user 10 times for input and sum the input using a for loop
   for (int i = 0; i < 10; i++) {
     cout << "Enter a number: ";
     cin >> input;
     sum += input;
   }
 
-  // Calculate and print the final result
+  // Calculate and print the final result(sum and average)
   cout << "The average is : " << ((double)sum / 10)  << endl;
   cout << "Sum: " << ((double)sum) << endl;
 
